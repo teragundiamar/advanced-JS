@@ -4,7 +4,7 @@
 	this.yearOfBirth = yearOfBirth,
 	this.job = job
 }
-
+// creating an instance
 var john = new Person("John", 1988, "Teacher" )
 
 Person.prototype.calculateAge = function(){
